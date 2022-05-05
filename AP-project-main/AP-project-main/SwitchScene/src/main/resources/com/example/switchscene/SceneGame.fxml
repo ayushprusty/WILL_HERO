@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane nodeOrientation="LEFT_TO_RIGHT" prefHeight="544.0" prefWidth="1508.0" style="-fx-background-color: cyan; -fx-background-image: url(&quot;file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/skypics.jpg&quot;);" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.switchscene.Controller">
+   <children>
+      <ImageView fitHeight="274.0" fitWidth="497.0" layoutX="40.0" layoutY="225.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/island.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="heroImg" fitHeight="37.0" fitWidth="78.0" layoutX="119.0" layoutY="357.0" onKeyPressed="#hello" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/DangWillHero.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="44.0" layoutX="46.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/settings.jpeg" />
+         </image>
+      </ImageView>
+      <Button fx:id="sett" layoutX="46.0" layoutY="55.0" mnemonicParsing="false" onAction="#SETTINGS" opacity="0.0" prefHeight="34.0" prefWidth="44.0" text="Button" />
+      <ImageView fitHeight="300.0" fitWidth="559.0" layoutX="215.0" layoutY="271.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/islandassorted.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="orc" fitHeight="37.0" fitWidth="44.0" layoutX="283.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/orc.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="33.0" layoutY="655.0" mnemonicParsing="false" onAction="#Exit" style="-fx-background-color: red;" text="Close">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font></Button>
+      <ImageView fx:id="fisl1" fitHeight="150.0" fitWidth="200.0" layoutX="1408.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/island3_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="fisl" fitHeight="197.0" fitWidth="306.0" layoutX="222.0" layoutY="225.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/islFloat.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="429.0" layoutY="19.0" prefHeight="112.0" prefWidth="178.0" text="SCORE">
+         <font>
+            <Font name="Franklin Gothic Demi Cond" size="44.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="47.0" fitWidth="47.0" layoutX="888.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/gold-coins-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="47.0" layoutX="727.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:///C:/Users/HP/IdeaProjects/SwitchScene/src/main/java/com/example/switchscene/ImagesTot/ChestClosed.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="222.0" layoutY="620.0" mnemonicParsing="false" onAction="#hello" text="move" />
+   </children>
+</AnchorPane>
